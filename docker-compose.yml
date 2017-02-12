@@ -7,7 +7,7 @@ services:
       - .:/app
       - /app/vendor
     ports:
-      - '3030:3000'
+      - '3000:3000'
     environment:
       - RACK_ENV=development
       - DATABASE_URL=mysql2://webapp:webapp@mysql/webapp_development
